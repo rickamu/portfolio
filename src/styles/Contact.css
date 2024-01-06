@@ -1,0 +1,48 @@
+.contact {
+  margin-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.404);
+}
+.contact > div {
+  min-height: calc(100vh - 4em);
+  justify-content: center;
+  align-items: center;
+  /* width: max-content; */
+  max-width: 500px;
+  /* border: 1px solid green; */
+}
+.form_cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* border: 1px solid blue; */
+}
+.earth {
+  width: 100%;
+  height: 350px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 400px;
+  gap: 1.5em;
+  /* border: 1px solid red; */
+}
+
+form > label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.send {
+  height: 2.5em;
+  background-color: aqua;
+}

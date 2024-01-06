@@ -1,0 +1,60 @@
+
+nav {
+  width: 98vw;
+  height: 2.5em;
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  padding-left: .8em;
+  padding-right: .8em;
+  /* background-color: rgba(16, 16, 16, 0.2); */
+}
+nav:hover {
+  border-bottom: 0.5px solid rgba(16, 16, 16, 0.2);
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 3em;
+  transform: translateY(1);
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.herotext {
+  color: darkgrey;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+  /* text-transform: uppercase;
+  font-family: 'Minion Pro', sans-serif;
+  font-size: 4em;
+  letter-spacing: 3px;
+  list-style-position: outside;
+  line-height: 1.6; */
+
+}
